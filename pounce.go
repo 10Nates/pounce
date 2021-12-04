@@ -148,9 +148,9 @@ func ingame() {
 	}
 
 	//playbox modification
-	play[movebox[0]][movebox[1]] = "\\033[34m[]\\033[39m"
-	play[player.pos1][player.pos2] = "	\\033[31mOO\\033[39m"
-	play[critter.pos1][critter.pos2] = "\\033[33m\"<\\033[39m"
+	play[movebox[0]][movebox[1]] = "[]"
+	play[player.pos1][player.pos2] = "OO"
+	play[critter.pos1][critter.pos2] = "\"<"
 
 	//render playbox
 	var items string
